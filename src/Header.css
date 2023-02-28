@@ -1,0 +1,32 @@
+.Header {
+  margin:0;
+  padding:0;
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  /* Gradient overlay for background image */
+  background-image: url("images/leather.jpg"), radial-gradient(
+    ellipse at center,
+    rgba(216, 155, 41, 0.9),
+    rgba(153, 101, 5, 0.9),
+    rgba(110, 73, 25, 0.99),
+    rgba(85, 57, 20, 1),
+    rgb(51, 36, 16, 1));
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  border-bottom:#38190d groove 0.5rem;
+  box-shadow: inset 0 0 5px black;
+  /* Gradient overlay for element background */
+}
+h1 {
+    width:100%;
+    margin: auto 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:5rem;
+    font-weight:bolder;
+  color:#442d0f;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: multiply;
+}

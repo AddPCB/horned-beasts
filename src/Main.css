@@ -1,0 +1,14 @@
+.Main {
+  display:flex;
+  justify-content:space-evenly;
+  align-items:stretch;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  margin-top:1vh;
+  width:95%;
+  height:90%;
+  background-color: rgba(231, 199, 109, 0.342);
+  border:0.5rem orange ridge;
+  color:#442d0f;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

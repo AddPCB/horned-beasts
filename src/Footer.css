@@ -1,0 +1,30 @@
+.Footer {
+  background-color: #2d302d;
+  padding:0;
+  text-align: center;
+  position: fixed;
+  width:100%;
+  bottom: 0;
+  height: 4vh;
+  display: flex;
+  justify-content: center;  
+  border-top:#2b2624 groove 0.5rem;
+  box-shadow: inset 0 0 5px black;
+}
+.Caption {
+  background-color: black;
+  color: white;
+  font-family: 'Edwardian Script ITC', 'Brush Script MT', 'Zapfino', 'Lucida Handwriting', cursive;
+  padding:1px 10px;
+  border-radius:10px;
+  margin-top:-1rem;
+  box-sizing:border-box;
+  border: 0.1rem blanchedalmond Outset;
+  position: relative;
+  text-align: center;
+}
+.Caption h5 {
+  margin: 0;
+  font-size:2rem;
+  text-transform:capitalize;
+}
