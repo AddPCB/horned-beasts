@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/horned-beasts/static/css/main.2044a15d.css",
+    "main.js": "/horned-beasts/static/js/main.3a760a0e.js",
+    "static/media/menagerie.jpg": "/horned-beasts/static/media/menagerie.85223b8caefc72a768a8.jpg",
+    "static/media/Mr-Dave-Ghroll.png": "/horned-beasts/static/media/Mr-Dave-Ghroll.e1ff13beeadfbd995dd4.png",
+    "static/media/A-Cow-Pie.png": "/horned-beasts/static/media/A-Cow-Pie.940b9273a0ba82c75e8a.png",
+    "static/media/Princess-Butt-Stallion.png": "/horned-beasts/static/media/Princess-Butt-Stallion.984ddce42f2f1b2efa90.png",
+    "static/media/A-Nose-Horned-Dragon-Lizard.png": "/horned-beasts/static/media/A-Nose-Horned-Dragon-Lizard.11334495ac8dc761c4f5.png",
+    "static/media/leather.jpg": "/horned-beasts/static/media/leather.22be1367551add4fc0d6.jpg",
+    "static/media/A-Narwhal.png": "/horned-beasts/static/media/A-Narwhal.f1113b7d33e6cc19cfe1.png",
+    "static/media/Spyro-The-Dragon.png": "/horned-beasts/static/media/Spyro-The-Dragon.dd3d5fc0e520dbb4ba0e.png",
+    "static/media/The-Gruffalo.png": "/horned-beasts/static/media/The-Gruffalo.b2e4d40d77c9a1044ded.png",
+    "static/media/The-Alot.png": "/horned-beasts/static/media/The-Alot.e20f5712a6949988e174.png",
+    "index.html": "/horned-beasts/index.html",
+    "main.2044a15d.css.map": "/horned-beasts/static/css/main.2044a15d.css.map",
+    "main.3a760a0e.js.map": "/horned-beasts/static/js/main.3a760a0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2044a15d.css",
+    "static/js/main.3a760a0e.js"
+  ]
+}
