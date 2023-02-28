@@ -1,13 +1,14 @@
 figure {
-  min-width: 200px;
+  min-width: 225px;
   min-height: 150px;
-  max-width: 300px;
+  max-width: 450px;
   max-height: 300px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border:0.2rem peru inset;
 }
 
 figure img {
@@ -15,8 +16,9 @@ figure img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 200px;
+  min-width: 225px;
   min-height: 150px;
+  max-width: 450px;
   width: 100%;
   height: auto;
   object-fit: cover;

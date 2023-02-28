@@ -1,19 +1,35 @@
 .Footer {
-  background-color: #2d302d;
+  margin:0;
   padding:0;
-  text-align: center;
-  position: fixed;
-  width:100%;
-  bottom: 0;
-  height: 4vh;
   display: flex;
-  justify-content: center;  
-  border-top:#2b2624 groove 0.5rem;
+  width: 100%;
+  height: 4vh;
+  position:fixed;
+  bottom:0;
+  justify-content: center; 
+  /* Gradient overlay for background image */
+  background-image: url("images/leather.jpg"), radial-gradient(
+    ellipse at center,
+    rgba(216, 155, 41, 0.9),
+    rgba(153, 101, 5, 0.9),
+    rgba(110, 73, 25, 0.99),
+    rgba(85, 57, 20, 1),
+    rgb(51, 36, 16, 1));
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  border-top:#38190d ridge 0.5rem;
   box-shadow: inset 0 0 5px black;
 }
 .Caption {
-  background-color: black;
-  color: white;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+  color: silver;
   font-family: 'Edwardian Script ITC', 'Brush Script MT', 'Zapfino', 'Lucida Handwriting', cursive;
   padding:1px 10px;
   border-radius:10px;

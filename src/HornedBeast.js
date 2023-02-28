@@ -29,8 +29,8 @@ class HornedBeast extends Component {
       return {
         key: index,
         src: image,
-        alt: `An image of the horned beast: ${fileTitle(image)}`,
-        title: fileTitle(image)
+        alt: fileTitle(image),
+        title: `An image of the horned beast: ${fileTitle(image)}`
       }
     })
   }
@@ -40,7 +40,7 @@ class HornedBeast extends Component {
       <div className="HornedBeast">
         <figure key={this.state.chosenImage.key}>
           <img src={this.state.chosenImage.src} alt={this.state.chosenImage.alt} title={this.state.chosenImage.title} fluid key={this.state.chosenImage.key} />
-          <figcaption>{this.state.chosenImage.title}</figcaption>
+          <figcaption>{this.state.chosenImage.alt}</figcaption>
         </figure>
       </div>
     );
